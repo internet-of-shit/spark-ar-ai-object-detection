@@ -1,7 +1,10 @@
-# Spark AR Project Template
-Comprehensive template for spark-ar projects. Include your models, images and even use npm and webpack to build your scripts. 
+# AI Object Detection Filter
+<img src="https://github.com/internet-of-shit/spark-ar-ai-object-detection/blob/master/filtericon.png" height="140">
 
-## Handy Links
+Instagram AR-Filter, which mimics real AI object detection / recognition. Users can change the label via tapping on the frame.
+Tapping on the percentage value of detection probabillity changes the value behavior (100%'ish, 0%'ish, 0%, 100%) 
+
+### Handy Links
 [Spark AR Docs](https://sparkar.facebook.com/ar-studio/learn/documentation/guides/)
 
 ### Quickstart
