@@ -17,10 +17,7 @@ const faceTracker = Scene.root.findFirst('faceTracker0');
 const faceTransform = face.cameraTransform;
 
 label.then((textObj)=>{
-  textObj.text = faceTransform.position.x.mul(100).format('{:.1f}')
-              .concat('x')
-              .concat(faceTransform.position.y.mul(100).format('{:.1f}'))
-              .concat('y')
-              .concat(faceTransform.position.y.mul(100).format('{:.1f}'))
-              .concat('z');
+  textObj.text = faceTransform.position.x.mul(100).format('x {:.1f} ')
+              .concat(faceTransform.position.y.mul(100).format('y {:.1f} '))
+              .concat(faceTransform.position.y.mul(100).format('z {:.1f}'));
 });
